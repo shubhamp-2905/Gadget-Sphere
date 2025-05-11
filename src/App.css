@@ -1,0 +1,524 @@
+.Navbar
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.Brand-name
+{
+  font-size: 28px;
+  font-family: "Protest Riot";
+}
+
+.main
+{
+  width: 100%;
+  height: 85vh;
+}
+
+video
+{
+
+  width: 100%;
+  height: 105%;
+  object-fit: cover;
+
+}
+
+.content{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 300px;
+  font-family: "Poppins", sans-serif;
+}
+
+.service{
+  width: 100%;
+  background-color: black;
+  background: url(./Assests/experience-1.png);
+}
+
+.service span {
+  color: white;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* font-family: "Poppins", sans-serif; */
+
+}
+
+.service h2 {
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.card-text h5{
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.card-text p{
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.intro{
+  width: 100%;
+  /* background-color: black; */
+  background: url(./Assests/intro-bg.jpg);
+}
+h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.image img{
+  border-radius: 10px;
+  
+}
+
+.intro-card {
+  position: relative;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items:center;
+  /* padding: 25px 25px 25px; */
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  /* z-index: 1; */
+}
+.intro-card ::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgb(0, 0, 0);
+  content: "";
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  transition: transform 500ms ease;
+  transform: scale(0, 1);
+  transform-origin: left center;
+  z-index: -1;
+}
+
+.choose-us p {
+  color: rgb(0, 0, 0);
+  position: relative;
+  display:flex;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+
+  /* text-transform: uppercase; */
+  /* font-family: "Poppins", sans-serif; */
+
+}
+
+.choose-us h1 {
+  color: rgb(0, 0, 0);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+
+}
+/* .slider-container{
+  align-items: center;
+  
+  
+  justify-content: center;
+} */
+
+
+.slider-container p{
+  color: rgb(0, 0, 0);
+  position: relative;
+  display:flex;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  /* background-color: black; */
+  background: rgba(0, 0, 0, 0.7) url(./Assests/blog-1-2.jpg);
+  
+  background-blend-mode: darken;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.cards{
+  border-radius: 0%;
+}
+
+
+
+
+.site-footer-shape-1
+{
+background-image: url(./Assests/site-footer-shape-1.png);
+}
+
+.Ftr1
+{
+visibility: visible; 
+animation-delay: 100ms;
+ animation-name: fadeInUp;
+}
+
+.Ftr2
+{
+visibility: visible; 
+animation-delay: 200ms;
+ animation-name: fadeInUp;
+}
+
+.Ftr3
+{
+visibility: visible; 
+animation-delay: 300ms;
+ animation-name: fadeInUp;
+}
+
+.Ftr4
+{
+visibility: visible; 
+animation-delay: 400ms;
+ animation-name: fadeInUp;
+}
+
+.Footer{
+  width: 100%;
+  background-color: black;
+  background: url(./Assests/experience-1.png);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.site-footer__bottom-inner {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.footer-widget__social-title {
+  font-size: 18px;
+  color: var(--fixnix-white);
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 22px;
+}
+
+
+.countup{
+  background: rgba(0,0,0,0.8) url(./Assests/blog-1-2.jpg);
+  width: 100%;
+  /* background-color: black; */
+  
+  background-blend-mode: darken;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.count{
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.count-txt{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.element{
+  margin-top: 90px;
+}
+
+.headline{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 150px;
+
+}
+
+.t-img{
+  border: 30px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.q-img{
+  height: 50px;
+}
+
+.nick{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+.carousel-btm {
+  background-color: rgb(238, 237, 237);
+}
+
+
+.contact{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7) url(./Assests/page-header-bg.jpg);
+  background-blend-mode: darken ;
+  /* margin-top: 50px; */
+  border-radius: 20px;
+  /* height: 300px; */
+  
+}
+.text-con1 h1 {
+  color: white;
+  display:flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 60px;
+  align-items: center;
+
+  margin-top: 100px;
+}
+
+.text-con1 p{
+  color: white;
+  display:flex;
+  justify-content: center;
+}
+
+.text-con1 a{
+  color: red;
+  margin-right: 3px;
+}
+
+.body-con{
+  background-color: rgb(241, 241, 241);
+}
+
+.con-card{
+  border: none;
+  
+}
+
+.contact-imgs{
+  height: 500px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  transform: scaleX(-1);
+  /* position: relative; */
+  z-index: -1;
+}
+
+.box-c{
+    height: 530px;
+    background-color: rgb(18, 17, 17);
+    border-radius: 20px;
+    width: 450px;
+    color: white;
+    padding: 15px;
+}
+
+.small-box{
+  color: black;
+  background-color: rgb(255, 255, 255);
+  margin: 25px;
+  border-radius: 20px;
+  padding: 20px;
+  height: 400px;
+  
+}
+
+.abt-1{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7) url(./Assests/page-header-bg.jpg);
+  background-blend-mode: darken ;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.lapy{
+  height: 350px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 15px;
+}
+
+
+.head-service h1 {
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-decoration: underline;
+}
+
+.services{
+ 
+  background-color: rgb(241, 241, 241);
+  border-radius: 15px;
+}
+
+.item-ser h1, p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.item-ser h1,i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.item-ser h2
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-weight:650;
+  /* color: aqua; */
+}
+
+.ser-img{
+  width: 650px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.que{
+  color: red;
+  font-weight: 700;
+}
+
+.accordion-body{
+  background-color: rgb(242, 242, 242);
+  /* border-radius: 50px; */
+  /* border: 2px solid red; */
+}
+
+.main-body{
+  background-color: antiquewhite;
+}
+
+.ard-head
+{
+  background-color: rgb(242, 242, 242);
+}
+
+.icon-tick i{
+
+color: rgb(1, 212, 47);
+}
+
+.icon-tick h6{
+  letter-spacing: 2px;
+}
+
+.boxx{
+  background-color: rgb(255, 255, 255);
+  height: 520px;
+  border-radius: 15px;
+
+}
+
+.sm-cards{
+  background-color: rgb(249, 249, 249);
+  height: 485px;
+  border: none;
+}
+
+.main-item{
+  background: url(./Assests/intro-bg.jpg);
+}
+
+.rupe-icon {
+  color: rgb(255, 0, 0);
+}
+
+.counter-abt{
+  background-color: rgb(35, 35, 35);
+  border-radius: 25px;
+  height: 200px;
+  
+}
+
+.cnt-m {
+  margin-top: 32px;
+}
+
+.tms-img{
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.abt-card{
+  background-color: rgb(220, 220, 220);
+  border-radius: 20px;
+  width: 350px;
+}
+
+.con-test {
+  
+    background: url(./Assests/intro-bg.jpg);
+    
+}
+

@@ -1,74 +1,32 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 💻 Gadget Sphere
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Gadget Sphere is a sleek and modern frontend web application for a **laptop repairing and selling company**, built using **React.js** and styled with CSS. It delivers a responsive, user-friendly interface and integrates smooth animations using Framer Motion to enhance user experience. The project represents the frontend of a full-stack MERN application and is designed to showcase products, offer repair services, and engage users with a seamless experience.
 
-## Available Scripts
+----
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🛠 Laptop repair booking UI
+- 💼 Product display for sales
+- 📱 Mobile-first responsive design
+- ✨ Animations powered by Framer Motion
+- ⚡ Optimized performance with clean codebase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+## 🧰 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:** React.js
+- **Styling:** CSS
+- **Animations:** Framer Motion
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots 
 
-### `npm run build`
+![image](https://github.com/user-attachments/assets/c7b17ba4-f91e-41fe-a3bf-b9bdb23bda4d)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/user-attachments/assets/b163cde8-f774-4954-b240-c717b04569f0)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/user-attachments/assets/8bb7745f-c4f4-4037-9f0d-03271141c5de)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Gadget-Sphere
->>>>>>> 62f46c3af2b2bb16d65efab30e6de12fc429ab71
+![image](https://github.com/user-attachments/assets/501aaf62-2253-4d7f-a334-6340208f5d84)

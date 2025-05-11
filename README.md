@@ -23,10 +23,16 @@ Gadget Sphere is a sleek and modern frontend web application for a **laptop repa
 
 ## Screenshots 
 
+Landing Page :
 ![image](https://github.com/user-attachments/assets/c7b17ba4-f91e-41fe-a3bf-b9bdb23bda4d)
 
+Products :
 ![image](https://github.com/user-attachments/assets/b163cde8-f774-4954-b240-c717b04569f0)
 
+About :
 ![image](https://github.com/user-attachments/assets/8bb7745f-c4f4-4037-9f0d-03271141c5de)
 
 ![image](https://github.com/user-attachments/assets/501aaf62-2253-4d7f-a334-6340208f5d84)
+
+Contact Form :
+![image](https://github.com/user-attachments/assets/e23d69d5-bf7c-47d7-b70e-9ecaed86abb1)
